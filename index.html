@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="sass/style.sass">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
     <header class="header">
@@ -36,11 +37,13 @@
     <!-- /.header -->
     <main>
         <section class="hero">
-            <a href="#" class="instagram hero__instagram">instagram</a>
+            <div class="instagram hero__instagram">
+                <a href="#" class="instagram__link">instagram</a>
+            </div>
             <div class="container">
                 <div class="hero__content">
                     <h1 class="title hero__title">Tурецкий ремонт 
-                        в Ростове-на-дону
+                        в&nbsp;<span class="title--primary">Ростове-на-дону</span>
                     </h1>
                     <p class="hero__text">
                         Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и 20% от стоимости материалов за счет организации работы
@@ -50,7 +53,7 @@
                 </div>
                 <!-- /.hero__content -->
            </div>
-            <a href="#" class="scroll-down">Личтайте вниз</a>
+            <a href="#" class="hero__scroll-down">Лиcтайте вниз</a>
         </section>
         <!-- /.hero -->
     </main>
